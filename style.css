@@ -1,0 +1,16 @@
+.instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.instagram-post {
+    width: calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+
+.instagram-post img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
